@@ -2,6 +2,7 @@ version: "3"
 
 services:
   mc:
+    container_name: mc
     image: itzg/minecraft-server
     ports:
       - 25565:25565
