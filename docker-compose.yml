@@ -22,3 +22,9 @@ services:
     restart: unless-stopped
     volumes:
       - ./minecraft-data:/data
+    logging:
+      driver: gcplogs
+      options:
+        labels: application
+    labels:
+      - application=minecraft
