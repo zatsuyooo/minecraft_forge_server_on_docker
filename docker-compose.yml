@@ -16,6 +16,7 @@ services:
       - DIFFICULTY=normal
       - ENABLE_COMMAND_BLOCK=FALSE
       - ENABLE_RCON=FALSE
+      - TZ=Asia/Tokyo
     tty: true
     stdin_open: true
     restart: unless-stopped
