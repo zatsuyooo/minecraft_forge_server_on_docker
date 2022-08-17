@@ -7,13 +7,18 @@ MinecraftのForge ServerをDocker上で動かします。
 - 使用するメモリを設定する
     ```yaml
     environment:
-        - MEMORY=<number>G
+        - MEMORY=<NUMBER>G
     ```
 - MinecraftとForgeのバージョンを指定する
     ```yaml
     environment:
-      - VERSION=<minecraft version>
-      - FORGEVERSION=<forge version>
+      - VERSION=<MINECRAFT VERSION>
+      - FORGEVERSION=<FORGE VERSION>
+    ```
+- ログ出力先を設定する
+    ```yaml
+    logging:
+      driver: <LOGGING DRIVER>
     ```
 ## サーバーを起動する
     ```bash
