@@ -21,10 +21,10 @@ MinecraftのForge ServerをDocker上で動かします。
       driver: <LOGGING DRIVER>
     ```
 ## サーバーを起動する
-    ```bash
-    cd minecraft_forge_server_on_docker
-    sudo docker compose up -d
-    ```
+```bash
+cd minecraft_forge_server_on_docker
+sudo docker compose up -d
+```
 
 ## サーバーコンソールに接続する
 ```bash
